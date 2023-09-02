@@ -1,0 +1,12 @@
+spotify:
+  clientId: 16fbc72e1a384f3f921b4dddd5729399
+  clientSecret: 90c80879ff1e4ea898afbd7080ae1115
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/spotify_api?useSSL=false
+    dbname: spotify_api
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
